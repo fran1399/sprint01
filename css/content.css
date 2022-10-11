@@ -1,0 +1,56 @@
+* { margin: 0;
+    padding: 0;
+    text-decoration: none;}
+    
+    body { 
+        
+        background-image:url(../img/materiales/img02.jpg);
+        background-size: cover;
+        color: white;
+           
+    }
+    
+    .title {
+        margin-top: 20px;
+    }
+    
+    .subTitle {
+        margin-top: 20px;
+    }
+    
+    .videoBox {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: 5px;
+        border-radius: 30px;
+        border-color: black;
+        margin-top: 30px;
+        background-image: linear-gradient( to bottom right, rgb(174, 32, 56), black);
+        border-style: outset;
+        width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    
+    .video {
+        margin-top: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        box-shadow: 0px 0px 5px 3px rgb(241, 239, 239)
+        }
+    
+    .videoPlay {
+        margin-top: 10%;
+        background-color: rgb(101, 11, 63);
+        text-align: center;
+         
+    }
+    
+    a { 
+        color: white;
+    }
